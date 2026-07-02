@@ -12,7 +12,7 @@ conn_params = {
     "password": "sepia_9Camisole_Region0_circa8_spasm5_vision8_1swain_Hankering_germicide2_blows0_Yiddish_Shake"
 }
 
-@app.get("/ExtraUsers")
+@app.get("/Usuarios")
 def listar_service_orders():
     try:
         conn = psycopg2.connect(**conn_params)
